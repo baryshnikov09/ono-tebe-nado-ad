@@ -1,5 +1,5 @@
-
 .header {
+  padding: 92px 50px 96px;
 }
 
 .header-menu {
@@ -12,12 +12,15 @@
 }
 
 .cover {
+  padding: 165px 50px 50px;
+  background: url("../images/cover.jpg") center / cover no-repeat;
 }
 
 .description {
 }
 
 .lots {
+  margin: 180px 24px 0;
 }
 
 .lots-list {
@@ -27,6 +30,7 @@
 }
 
 .about {
+  margin: 120px 24px 0;
 }
 
 .about-column {
@@ -36,6 +40,8 @@
 }
 
 .footer {
+  margin-top: 180px;
+  padding: 0 50px 82px;
 }
 
 .footer-menu {
