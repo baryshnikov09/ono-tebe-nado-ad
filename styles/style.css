@@ -1,3 +1,4 @@
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -44,15 +45,75 @@
 }
 
 .cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
   padding: 165px 50px 50px;
   background: url("../images/cover.jpg") center / cover no-repeat;
 }
 
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 60%);
+}
+
+.cover-title {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text-left {
+  text-align: left;
+}
+
+.aligned-text-center {
+  text-align: center;
+}
+
+.aligned-text-right {
+  text-align: right;
+}
+
+.description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.description-text {
+  word-spacing: 18px;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+}
 
 .lots {
   margin: 180px 24px 0;
 }
-
 
 .about {
   margin: 120px 24px 0;
@@ -61,10 +122,4 @@
 .footer {
   margin-top: 180px;
   padding: 0 50px 82px;
-}
-
-.footer-menu {
-}
-
-.social-list {
 }
