@@ -39,7 +39,7 @@
 }
 
 .header-address {
-  max-width: 240px;
+  max-width: 220px;
   justify-self: end;
 }
 
@@ -203,4 +203,49 @@
 
 .card-picture {
   background: url("../images/card-lot-03.jpg") center / cover no-repeat;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: start;
+  margin-top: 180px;
+  padding: 0 50px 82px;
+}
+
+.footer .address {
+  max-width: 240px;
+  justify-self: start;
+}
+
+.footer-menu-list {
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.footer-menu-link {
+  text-decoration: underline;
+}
+
+.footer-menu-link-active {
+  text-decoration: none;
+}
+
+.social-list {
+  display: flex;
+  gap: 48px;
+  justify-self: end;
+  list-style: none;
+}
+
+.social-list img {
+  display: block;
+  width: 48px;
+}
+
+.more-inf {
+  text-decoration: underline;
 }
