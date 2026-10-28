@@ -115,8 +115,41 @@
 }
 
 .about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
   margin: 120px 24px 0;
 }
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin: 35px auto 0;
+  border-radius: 50%;
+  background: black;
+}
+
+.about-logo-image {
+  width: 148px;
+}
+
+.about-title {
+  margin: 133px 0 100px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 
 .footer {
   margin-top: 180px;
